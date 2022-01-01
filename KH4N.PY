@@ -35,7 +35,7 @@ def home():
     print logo
     device = platform.architecture()[0]
     if device == '64bit':
-        os.system('python2 .ahmad.py
+        os.system('python2 .ahmad.tdm')
     elif device == '32bit':
         os.system("clear")
         os.system("exit")
